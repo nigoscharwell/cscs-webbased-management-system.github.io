@@ -1,2 +1,2 @@
-# cscs-webbased-management-system.github.io
+# cscs-management-system.github.io
  

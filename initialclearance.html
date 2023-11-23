@@ -1,0 +1,148 @@
+
+    <!DOCTYPE html>
+    <html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Initial Clearance</title>
+        <style>
+            /* Add any additional styling as needed */
+            header{
+                max-width: 600px;
+                margin: 0 auto;
+            }
+            body {
+                font-family: Arial, sans-serif;
+            }
+    
+            form {
+                max-width: 600px;
+                margin: 0 auto;
+            }
+    
+            label {
+                display: block;
+                margin-bottom: 8px;
+            }
+    
+            textarea {
+                width: 100%;
+                height: 100px;
+            }
+    
+            input[type="text"],
+            input[type="number"],
+            input[type="date"] {
+                width: 100%;
+                padding: 8px;
+                margin-bottom: 15px;
+                box-sizing: border-box;
+            }
+    
+            fieldset {
+                border: 1px solid #ccc;
+                padding: 15px;
+                margin-bottom: 15px;
+            }
+        </style>
+    </head>
+    <body>
+        <header><b>INITIAL CLEARANCE</b><br><br>
+        Date: <input type="datetime" name="" id=""></header> <br><br>
+        <form action="#" method="post">
+            <fieldset>
+                <legend>DESCRIPTION</legend>
+                <label for="name">Name:</label>
+                <input type="text" id="name" name="name" required>
+    
+                <label for="course">Course:</label>
+                <input type="text" id="course" name="course" required>
+    
+                <label for="campus">Campus:</label>
+                <input type="text" id="campus" name="campus" required>
+    
+                <label for="semester">Semester:</label>
+                <input type="text" id="semester" name="semester" required>
+    
+                <label for="academicYear">S.Y.:</label>
+                <input type="text" id="academicYear" name="academicYear" required>
+    
+                <label for="thesisTitle">Title of Thesis/Dissertation:</label>
+                <textarea id="thesisTitle" name="thesisTitle" required></textarea>
+    
+                <label for="adviser">Adviser:</label>
+                <input type="text" id="adviser" name="adviser" required>
+    
+                <label for="consultedStatistician">Consulted Statistician from the Center:</label>
+                <input type="text" id="consultedStatistician" name="consultedStatistician" required>
+            </fieldset>
+    
+            <fieldset>
+                <legend>B. INITIAL CONSULTATION (to be filled out by the Center)</legend>
+                <!-- Include checkboxes for Presented Documents and textareas for Actions Taken by the Center -->
+                <b>Presented Documents:</b> <br>
+                <input type="checkbox" name="" value=""> Proposed/Approved Title <br>
+                <input type="checkbox" name="" id=""> Statement of the Problem/Objectives of the Study <br>
+                <input type="checkbox" name="" id=""> Statistical hypothesis <br>
+                <input type="checkbox" name="" id=""> Experimental set-up (design, replication, blocks, randomization) <br>
+                <input type="checkbox" name="" id=""> Sampling <br>
+                &nbsp;&nbsp;&nbsp;&nbsp; <input type="checkbox" name="" id=""> Sample Size <br>
+                &nbsp;&nbsp;&nbsp;&nbsp; <input type="checkbox" name="" id=""> Sampling technique <br>
+                <input type="checkbox" name="" id=""> Statistical plan/solution to the Problem <br>
+                &nbsp;&nbsp;&nbsp;&nbsp; <input type="checkbox" name="" id=""> Statistical tool(s) <br>
+                &nbsp;&nbsp;&nbsp;&nbsp; <input type="checkbox" name="" id=""> Level of Alpha <br>
+                <b>Actions Taken by the Center:</b> <br>
+                <input type="checkbox" name="" id=""> Statistical testable <br>
+                &nbsp;&nbsp;&nbsp;&nbsp; <input type="checkbox" name="" id=""> Hypothesis/hypotheses <br>
+                &nbsp;&nbsp;&nbsp;&nbsp; <input type="checkbox" name="" id=""> Problems <br>
+                <input type="checkbox" name="" id=""> Appropriate method for data collection <br>
+                <input type="checkbox" name="" id="">  Valid data gathering instrument (items in the instrument can solve the problem) <br>
+                <input type="checkbox" name="" id="">  Suitable experimental set – up (design, replication, blocks, randomization) <br>
+                <input type="checkbox" name="" id="">  Appropriate sampling procedure/setup <br>
+                <input type="checkbox" name="" id=""> □ Appropriate statistical tool <br>
+                <b>Remarks:</b>
+                <textarea name="" id="" cols="30" rows="10"></textarea>
+
+            </fieldset>
+    
+            <fieldset>
+                <legend>C. ASSESSMENT / PAYMENT</legend>
+                <label for="initialConsultationFee">I. Initial Consultation:</label>
+                <input type="number" id="initialConsultationFee" name="initialConsultationFee" required>
+                
+                <label for="officialReceiptNo">Official Receipt No.:</label>
+                <input type="text" id="officialReceiptNo" name="officialReceiptNo" required>
+    
+                <label for="additionalCharge">II. Additional charge:</label>
+                <input type="number" id="additionalCharge" name="additionalCharge">
+    
+                <label for="paymentDate">Date:</label>
+                <input type="date" id="paymentDate" name="paymentDate">
+    
+                <label for="totalPayment">TOTAL:</label>
+                <input type="number" id="totalPayment" name="totalPayment" readonly>
+            </fieldset>
+    
+            <fieldset>
+                <legend>D. CLEARANCE</legend>
+                <p>To whom it may concern:</p>
+                <p>This is to certify that <input type="text"> has satisfactorily accounted for all the fees and has completed the requirements set by the Center for the PROPOSAL STAGE.</p>
+    
+                <label for="statisticianSignature">Statistician Signature:</label>
+                <input type="text" id="statisticianSignature" name="statisticianSignature" required>
+    
+                <label for="centerHeadSignature">Center Head/Director Signature:</label>
+                <input type="text" id="centerHeadSignature" name="centerHeadSignature" required>
+            </fieldset>
+            <br><br><br>
+        <b>Assessed by:</b>
+        <input type="text">
+            <input type="submit" value="Submit">
+        </form>
+    
+    </body>
+    </html>
+    
+
+</body>
+</html>

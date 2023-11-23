@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Final Clearance</title>
+    <style>
+        /* Add any additional styling as needed */
+        header{
+            max-width: 600px;
+            margin: 0 auto;
+        }
+        body {
+            font-family: Arial, sans-serif;
+        }
+
+        form {
+            max-width: 600px;
+            margin: 0 auto;
+        }
+
+        label {
+            display: block;
+            margin-bottom: 8px;
+        }
+
+        textarea {
+            width: 100%;
+            height: 100px;
+        }
+
+        input[type="text"],
+        input[type="number"],
+        input[type="date"],
+        textarea {
+            width: 100%;
+            padding: 8px;
+            margin-bottom: 15px;
+            box-sizing: border-box;
+        }
+
+        fieldset {
+            border: 1px solid #ccc;
+            padding: 15px;
+            margin-bottom: 15px;
+        }
+    </style>
+</head>
+<body>
+    <header><b>FINAL CLEARANCE</b><br> <br>
+
+    Date: <input type="datetime" name="" id=""></header> <br><br>
+
+
+    <form action="#" method="post">
+        <fieldset>
+            
+            <legend>A. DESCRIPTION</legend>
+            <label for="name">Name:</label>
+            <input type="text" id="name" name="name" required>
+
+            <label for="course">Course:</label>
+            <input type="text" id="course" name="course" required>
+
+            <label for="campus">Campus:</label>
+            <input type="text" id="campus" name="campus" required>
+
+            <label for="semester">Semester:</label>
+            <input type="text" id="semester" name="semester" required>
+
+            <label for="academicYear">S.Y.:</label>
+            <input type="text" id="academicYear" name="academicYear" required>
+
+            <label for="thesisTitle">Title of Thesis/Dissertation:</label>
+            <textarea id="thesisTitle" name="thesisTitle" required></textarea>
+
+            <label for="adviser">Adviser:</label>
+            <input type="text" id="adviser" name="adviser" required>
+
+            <label for="consultedStatistician">Consulted Statistician from the Center:</label>
+            <input type="text" id="consultedStatistician" name="consultedStatistician" required>
+        </fieldset>
+
+        <fieldset>
+            <legend>B. AVAILED SERVICES (to be filled out by the Center)</legend>
+            <input type="checkbox" name="" id=""> <b>Data Encoding/Cleaning</b> <br>
+            <input type="checkbox" name="" id=""> <b>Data Analysis</b> <br>
+            &nbsp;&nbsp;&nbsp;&nbsp; <input type="checkbox" name="" id=""> Descriptive Analysis <br>
+            &nbsp;&nbsp;&nbsp;&nbsp; <input type="checkbox" name="" id="">  Basic Inferential Analysis <br>
+            &nbsp;&nbsp;&nbsp;&nbsp; <input type="checkbox" name="" id=""> Higher Inferential Analysis <br>
+            <input type="checkbox" name="" id=""> <b>Output Checking</b>
+        </fieldset>
+
+        <fieldset>
+            <legend>B. FINAL CONSULTATION (to be filled out by the Center)</legend>
+            <!-- Include checkboxes for Final Consultation -->
+            <input type="checkbox" name="" id=""> Submitted the instrument and/or copy of the data to the center for verification <br>
+            <input type="checkbox" name="" id=""> Appropriate table format for all statistical analysis <br>
+            <input type="checkbox" name="" id=""> Appropriate graph format for all statistical analysis <br>
+            <input type="checkbox" name="" id=""> Proper interpretation for all statistical output <br>
+            <input type="checkbox" name="" id=""> All problems were properly answered by an appropriate statistical tool <br>
+            <input type="checkbox" name="" id=""> Proper procedure of sampling set up <br>
+            <input type="checkbox" name="" id=""> Solved all statistical problems/objectives <br>
+            <b>Remarks:</b>
+            <textarea name="" id="" cols="30" rows="10"></textarea>
+        </fieldset>
+
+        <fieldset>
+            <legend>C. ASSESSMENT/PAYMENT</legend>
+            <!-- Include input fields for Assessment/Payment -->
+            officialReceiptNo: <input type="number" name="" id=""> <br>
+            Date: <input type="date" name="" id=""> <br><br>
+            <b><u>ASSESSMENT AND FEES</u></b> <br>
+            <b>Data encoding/cleaning:</b> <input type="number" name="" id=""> <br>
+            <b>Data Analysis:</b> <input type="number" name="" id=""> <br>
+            <b>Output Checking:</b> <input type="number" name="" id=""> <br>
+            <b><i>Additional Charge:</i></b> <input type="number" name="" id=""> <br>
+            <b>TOTAL:</b> <input type="number" name="" id="">
+
+
+        </fieldset>
+
+        <fieldset>
+            <legend>D. CLEARANCE</legend>
+            <p>To whom it may concern:</p>
+            <p>This is to certify that <input type="text"> has satisfactorily accounted for all the fees and has completed the requirements set by the Center for the FINAL STAGE.</p>
+
+            <b>Statistician</b>
+            <input type="text" id="statisticianSignature" name="statisticianSignature" required>
+
+            
+            <b>Center Head/Director</b>
+            <input type="text" id="centerHeadSignature" name="centerHeadSignature" required>
+        </fieldset>
+        <br><br><br>
+        <b>Assessed by:</b>
+        <input type="text">
+
+        <input type="submit" value="Submit">
+    </form>
+
+</body>
+</html>
